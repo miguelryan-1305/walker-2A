@@ -1,42 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Portfólio de Miguel Ryan — Desenvolvimento Web e Backend">
-
-    <title>Miguel Ryan | Desenvolvedor</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <title>Miguel Ryan | Portfólio Pessoal</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- HEADER -->
+    <!-- CABEÇALHO -->
 
-    <header class="header">
-        <nav class="navbar container">
+    <header>
+        <nav class="navbar">
 
             <a href="#inicio" class="logo">
-                <span>&lt;</span>MR<span>/&gt;</span>
+                Miguel Ryan
             </a>
 
-            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
-                ☰
-            </button>
-
-            <ul class="nav-links" id="nav-links">
+            <ul class="menu">
                 <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
                 <li><a href="#formacao">Formação</a></li>
+                <li><a href="#interesses">Interesses</a></li>
+                <li><a href="#objetivos">Objetivos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
 
@@ -46,370 +36,93 @@
 
     <main>
 
-        <!-- HERO -->
+        <!-- INÍCIO -->
 
-        <section class="hero" id="inicio">
+        <section id="inicio" class="inicio">
 
-            <div class="hero-background"></div>
+            <div class="inicio-conteudo">
 
-            <div class="container hero-content">
+                <p class="pequeno-titulo">
+                    OLÁ, SEJA BEM-VINDO
+                </p>
 
-                <div class="hero-text">
+                <h1>
+                    Eu sou <span>Miguel Ryan</span>
+                </h1>
 
-                    <p class="eyebrow">
-                        <span class="status"></span>
-                        Disponível para oportunidades
+                <p class="subtitulo">
+                    Estudante • Tecnologia • Aprendizado
+                </p>
+
+                <!-- ESCREVA SUA APRESENTAÇÃO AQUI -->
+
+                <p class="descricao">
+                    Escreva aqui uma pequena apresentação sobre você.
+                    Fale brevemente sobre quem você é, o que gosta de fazer
+                    e o que está estudando atualmente.
+                </p>
+
+                <a href="#sobre" class="botao">
+                    Conheça minha história
+                </a>
+
+            </div>
+
+            <!-- ESPAÇO PARA FOTO -->
+
+            <div class="foto">
+                <span>
+                    Sua foto
+                </span>
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE MIM -->
+
+        <section id="sobre" class="secao">
+
+            <div class="titulo-secao">
+                <span>01</span>
+                <h2>Sobre mim</h2>
+            </div>
+
+            <div class="sobre-conteudo">
+
+                <div>
+                    <p>
+                        Escreva aqui sobre você.
                     </p>
 
-                    <h1>
-                        Olá, eu sou
-                        <span>Miguel Ryan.</span>
-                    </h1>
-
-                    <h2>
-                        Desenvolvedor <strong>Web & Backend</strong>
-                    </h2>
-
-                    <p class="hero-description">
-                        Desenvolvo aplicações e soluções digitais com foco
-                        em código organizado, aprendizado contínuo e resolução
-                        de problemas.
+                    <p>
+                        Você pode falar sobre sua personalidade,
+                        seus hobbies, coisas que gosta de fazer,
+                        seus interesses e um pouco da sua história.
                     </p>
-
-                    <div class="hero-buttons">
-
-                        <a href="#projetos" class="btn btn-primary">
-                            Ver meus projetos
-                            <span>→</span>
-                        </a>
-
-                        <a href="#contato" class="btn btn-outline">
-                            Entre em contato
-                        </a>
-
-                    </div>
-
-                    <div class="social-links">
-
-                        <a href="https://github.com/miguelryan-1305"
-                           target="_blank"
-                           rel="noopener noreferrer">
-                            GitHub
-                        </a>
-
-                        <span>/</span>
-
-                        <a href="#contato">
-                            Contato
-                        </a>
-
-                    </div>
-
                 </div>
 
+                <div class="informacoes">
 
-                <div class="hero-code">
-
-                    <div class="code-window">
-
-                        <div class="window-top">
-                            <div class="window-dots">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-
-                            <small>miguel.js</small>
-                        </div>
-
-                        <div class="code-content">
-
-<pre><code><span class="purple">const</span> developer = {
-    name: <span class="green">"Miguel Ryan"</span>,
-    focus: <span class="green">"Backend"</span>,
-    passion: <span class="green">"Technology"</span>,
-
-    learning: [
-        <span class="green">"Web Development"</span>,
-        <span class="green">"Programming"</span>,
-        <span class="green">"Backend"</span>
-    ],
-
-    available: <span class="blue">true</span>
-};</code></pre>
-
-                        </div>
-
+                    <div class="info">
+                        <strong>Nome</strong>
+                        <span>Seu nome completo</span>
                     </div>
 
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- SOBRE -->
-
-        <section class="section" id="sobre">
-
-            <div class="container">
-
-                <div class="section-heading">
-
-                    <span class="section-number">01</span>
-
-                    <div>
-                        <p class="section-label">SOBRE MIM</p>
-                        <h2>Conheça um pouco<br>da minha jornada.</h2>
+                    <div class="info">
+                        <strong>Idade</strong>
+                        <span>Sua idade</span>
                     </div>
 
-                </div>
-
-
-                <div class="about-grid">
-
-                    <div class="about-text">
-
-                        <p class="highlight">
-                            Sou Miguel Ryan, estudante e desenvolvedor
-                            interessado em tecnologia e desenvolvimento
-                            de software.
-                        </p>
-
-                        <p>
-                            Meu objetivo é transformar ideias em soluções
-                            funcionais através da programação, sempre buscando
-                            melhorar minhas habilidades e aprender novas
-                            tecnologias.
-                        </p>
-
-                        <p>
-                            Tenho interesse principalmente pelo desenvolvimento
-                            web e backend, áreas nas quais venho construindo
-                            projetos e aprofundando meus conhecimentos.
-                        </p>
-
+                    <div class="info">
+                        <strong>Cidade</strong>
+                        <span>Sua cidade</span>
                     </div>
 
-
-                    <div class="about-cards">
-
-                        <div class="info-card">
-                            <span class="card-icon">01</span>
-                            <h3>Aprendizado</h3>
-                            <p>
-                                Evolução constante através de estudos
-                                e projetos práticos.
-                            </p>
-                        </div>
-
-                        <div class="info-card">
-                            <span class="card-icon">02</span>
-                            <h3>Desenvolvimento</h3>
-                            <p>
-                                Criação de aplicações utilizando boas
-                                práticas de programação.
-                            </p>
-                        </div>
-
-                        <div class="info-card">
-                            <span class="card-icon">03</span>
-                            <h3>Problemas</h3>
-                            <p>
-                                Gosto de transformar problemas em
-                                soluções através da tecnologia.
-                            </p>
-                        </div>
-
+                    <div class="info">
+                        <strong>Área de interesse</strong>
+                        <span>Sua área</span>
                     </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- HABILIDADES -->
-
-        <section class="section section-dark" id="habilidades">
-
-            <div class="container">
-
-                <div class="section-heading">
-
-                    <span class="section-number">02</span>
-
-                    <div>
-                        <p class="section-label">HABILIDADES</p>
-                        <h2>Tecnologias &<br>conhecimentos.</h2>
-                    </div>
-
-                </div>
-
-
-                <div class="skills-grid">
-
-                    <div class="skill-category">
-
-                        <div class="skill-header">
-                            <span class="skill-number">01</span>
-                            <h3>Frontend</h3>
-                        </div>
-
-                        <div class="tags">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                        </div>
-
-                    </div>
-
-
-                    <div class="skill-category">
-
-                        <div class="skill-header">
-                            <span class="skill-number">02</span>
-                            <h3>Backend</h3>
-                        </div>
-
-                        <div class="tags">
-                            <span>Programação</span>
-                            <span>APIs</span>
-                            <span>Lógica</span>
-                        </div>
-
-                    </div>
-
-
-                    <div class="skill-category">
-
-                        <div class="skill-header">
-                            <span class="skill-number">03</span>
-                            <h3>Ferramentas</h3>
-                        </div>
-
-                        <div class="tags">
-                            <span>Git</span>
-                            <span>GitHub</span>
-                            <span>VS Code</span>
-                        </div>
-
-                    </div>
-
-
-                    <div class="skill-category">
-
-                        <div class="skill-header">
-                            <span class="skill-number">04</span>
-                            <h3>Conceitos</h3>
-                        </div>
-
-                        <div class="tags">
-                            <span>Web</span>
-                            <span>Programação</span>
-                            <span>Banco de Dados</span>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- PROJETOS -->
-
-        <section class="section" id="projetos">
-
-            <div class="container">
-
-                <div class="section-heading">
-
-                    <span class="section-number">03</span>
-
-                    <div>
-                        <p class="section-label">PORTFÓLIO</p>
-                        <h2>Projetos que<br>estou construindo.</h2>
-                    </div>
-
-                </div>
-
-
-                <div class="projects-grid">
-
-                    <article class="project-card featured">
-
-                        <div class="project-top">
-
-                            <span class="project-number">01</span>
-
-                            <div class="project-links">
-                                <a href="https://github.com/miguelryan-1305/backend"
-                                   target="_blank"
-                                   rel="noopener noreferrer">
-                                    GitHub ↗
-                                </a>
-                            </div>
-
-                        </div>
-
-                        <div class="project-content">
-
-                            <p class="project-type">
-                                PORTFÓLIO • WEB
-                            </p>
-
-                            <h3>Portfólio pessoal</h3>
-
-                            <p>
-                                Projeto desenvolvido para apresentar minha
-                                trajetória, conhecimentos, projetos e evolução
-                                na área de tecnologia.
-                            </p>
-
-                            <div class="project-tags">
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>JavaScript</span>
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <article class="project-card">
-
-                        <div class="project-top">
-
-                            <span class="project-number">02</span>
-
-                        </div>
-
-                        <div class="project-content">
-
-                            <p class="project-type">
-                                EM DESENVOLVIMENTO
-                            </p>
-
-                            <h3>Próximo projeto</h3>
-
-                            <p>
-                                Um novo projeto será adicionado aqui conforme
-                                minha jornada de desenvolvimento evolui.
-                            </p>
-
-                            <div class="project-tags">
-                                <span>Em breve</span>
-                            </div>
-
-                        </div>
-
-                    </article>
 
                 </div>
 
@@ -420,65 +133,57 @@
 
         <!-- FORMAÇÃO -->
 
-        <section class="section section-light" id="formacao">
+        <section id="formacao" class="secao cinza">
 
-            <div class="container">
+            <div class="titulo-secao">
+                <span>02</span>
+                <h2>Minha formação</h2>
+            </div>
 
-                <div class="section-heading">
+            <div class="formacao">
 
-                    <span class="section-number">04</span>
+                <div class="formacao-item">
+
+                    <div class="ano">
+                        20XX
+                    </div>
 
                     <div>
-                        <p class="section-label">FORMAÇÃO</p>
-                        <h2>Minha trajetória<br>de aprendizado.</h2>
+                        <h3>
+                            Nome da escola / instituição
+                        </h3>
+
+                        <p>
+                            Curso ou formação
+                        </p>
+
+                        <small>
+                            Escreva aqui algumas informações
+                            sobre sua formação.
+                        </small>
                     </div>
 
                 </div>
 
 
-                <div class="timeline">
+                <div class="formacao-item">
 
-                    <div class="timeline-item">
-
-                        <div class="timeline-marker"></div>
-
-                        <div class="timeline-content">
-
-                            <span class="timeline-date">
-                                ATUALMENTE
-                            </span>
-
-                            <h3>Formação e desenvolvimento</h3>
-
-                            <p>
-                                Em constante aprendizado na área de tecnologia,
-                                programação e desenvolvimento de software.
-                            </p>
-
-                        </div>
-
+                    <div class="ano">
+                        20XX
                     </div>
 
+                    <div>
+                        <h3>
+                            Outro curso
+                        </h3>
 
-                    <div class="timeline-item">
+                        <p>
+                            Nome do curso
+                        </p>
 
-                        <div class="timeline-marker"></div>
-
-                        <div class="timeline-content">
-
-                            <span class="timeline-date">
-                                ESTUDOS
-                            </span>
-
-                            <h3>Desenvolvimento Web</h3>
-
-                            <p>
-                                Estudos e desenvolvimento de projetos utilizando
-                                tecnologias web e conceitos de programação.
-                            </p>
-
-                        </div>
-
+                        <small>
+                            Informações adicionais.
+                        </small>
                     </div>
 
                 </div>
@@ -488,36 +193,139 @@
         </section>
 
 
+        <!-- INTERESSES -->
+
+        <section id="interesses" class="secao">
+
+            <div class="titulo-secao">
+                <span>03</span>
+                <h2>Meus interesses</h2>
+            </div>
+
+            <p class="texto-introducao">
+                Algumas coisas que fazem parte dos meus interesses
+                e daquilo que gosto de aprender.
+            </p>
+
+
+            <div class="interesses-grid">
+
+                <div class="interesse">
+                    <div class="numero">01</div>
+                    <h3>Interesse</h3>
+                    <p>
+                        Escreva aqui sobre um interesse seu.
+                    </p>
+                </div>
+
+                <div class="interesse">
+                    <div class="numero">02</div>
+                    <h3>Interesse</h3>
+                    <p>
+                        Escreva aqui sobre outro interesse.
+                    </p>
+                </div>
+
+                <div class="interesse">
+                    <div class="numero">03</div>
+                    <h3>Hobby</h3>
+                    <p>
+                        Escreva aqui sobre um hobby.
+                    </p>
+                </div>
+
+                <div class="interesse">
+                    <div class="numero">04</div>
+                    <h3>Aprendizado</h3>
+                    <p>
+                        Escreva aqui algo que gostaria de aprender.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- OBJETIVOS -->
+
+        <section id="objetivos" class="secao cinza">
+
+            <div class="titulo-secao">
+                <span>04</span>
+                <h2>Meus objetivos</h2>
+            </div>
+
+            <div class="objetivos">
+
+                <div class="objetivo">
+                    <span>01</span>
+                    <div>
+                        <h3>Objetivo pessoal</h3>
+                        <p>
+                            Escreva aqui um objetivo pessoal.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="objetivo">
+                    <span>02</span>
+                    <div>
+                        <h3>Objetivo acadêmico</h3>
+                        <p>
+                            Escreva aqui um objetivo relacionado
+                            aos seus estudos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="objetivo">
+                    <span>03</span>
+                    <div>
+                        <h3>Objetivo profissional</h3>
+                        <p>
+                            Escreva aqui o que você gostaria de
+                            fazer no futuro.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
         <!-- CONTATO -->
 
-        <section class="contact-section" id="contato">
+        <section id="contato" class="contato">
 
-            <div class="container contact-container">
+            <div class="contato-conteudo">
 
-                <p class="section-label">CONTATO</p>
+                <p class="pequeno-titulo">
+                    ENTRE EM CONTATO
+                </p>
 
                 <h2>
-                    Vamos criar algo<br>
-                    <span>incrível juntos?</span>
+                    Vamos conversar?
                 </h2>
 
                 <p>
-                    Estou aberto para oportunidades, projetos e conexões
-                    na área de tecnologia.
+                    Caso queira entrar em contato comigo,
+                    você pode me encontrar através dos links abaixo.
                 </p>
 
-                <div class="contact-buttons">
+                <div class="links-contato">
 
-                    <a href="https://github.com/miguelryan-1305"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       class="btn btn-white">
-                        GitHub ↗
+                    <a href="#" target="_blank">
+                        Instagram
                     </a>
 
-                    <a href="mailto:seuemail@email.com"
-                       class="btn btn-outline-white">
-                        Enviar e-mail
+                    <a href="#" target="_blank">
+                        GitHub
+                    </a>
+
+                    <a href="mailto:seuemail@email.com">
+                        E-mail
                     </a>
 
                 </div>
@@ -529,21 +337,17 @@
     </main>
 
 
-    <!-- FOOTER -->
+    <!-- RODAPÉ -->
 
-    <footer class="footer">
+    <footer>
 
-        <div class="container footer-content">
+        <p>
+            © 2026 Miguel Ryan
+        </p>
 
-            <p>
-                © 2026 Miguel Ryan.
-            </p>
-
-            <p>
-                Desenvolvido com código & café.
-            </p>
-
-        </div>
+        <p>
+            Portfólio pessoal
+        </p>
 
     </footer>
 
@@ -551,4 +355,5 @@
     <script src="script.js"></script>
 
 </body>
+
 </html>
