@@ -1,12 +1,20 @@
-const menuToggle = document.getElementById("menu-toggle");
-const navLinks = document.getElementById("nav-links");
+// Animação suave ao passar o mouse nos cards
 
-menuToggle.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-});
+const cards = document.querySelectorAll(".card");
 
-document.querySelectorAll(".nav-links a").forEach(link => {
-    link.addEventListener("click", () => {
-        navLinks.classList.remove("active");
+cards.forEach(card => {
+
+    card.addEventListener("mouseenter", () => {
+        card.style.transform = "translateY(-5px)";
+        card.style.transition = "0.3s";
     });
+
+    card.addEventListener("mouseleave", () => {
+        card.style.transform = "translateY(0)";
+    });
+
 });
+
+
+// Pequena mensagem no console
+console.log("♡ Bem-vindo ao portfólio do Miguel Ryan!");
