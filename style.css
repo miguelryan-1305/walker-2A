@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
 
 
 /* CONFIGURAÇÕES GERAIS */
@@ -205,7 +205,7 @@ footer p {
 
 /* RESPONSIVIDADE */
 
-@media (max-width: 700px) {
+media (max-width: 700px) {
 
     .navbar {
         flex-direction: column;
